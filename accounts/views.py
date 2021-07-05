@@ -43,4 +43,4 @@ def logout_request(request):
 
 @login_required
 def home_page(request):
-	return render(request=request, template_name="navbar.html")
+	return render(request=request, template_name="sidebar.html")

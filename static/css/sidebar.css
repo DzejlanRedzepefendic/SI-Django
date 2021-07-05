@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.leftsidebar{
+    background-color: rgb(53, 53, 53);
+    width: 18vw;
+    height: 100vh;
+    /* margin-left:1px;
+    margin-top: 3px; */
+}
+
+.pcmap > a, i{
+    color:white;
+    text-decoration: none;
+    font-size:130%;
+}
+
+.reservation > a, i{
+    color:white;
+    text-decoration: none;
+    font-size:130%;
+}
+
+.shop > a, i{
+    color:white;
+    text-decoration: none;
+    font-size:130%;
+}
+
+.userinfo > a, i{
+    color:white;
+    text-decoration: none;
+    font-size:130%;
+}
+
+.logout > a, i{
+    color:white;
+    text-decoration: none;
+    font-size:130%;
+}
+
+.pcmap{
+    height:15%;
+    padding-left: 7%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: .5px dotted rgb(48, 47, 47);
+}
+
+.reservation{
+    height: 15%;
+    padding-left: 7%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: .5px dotted rgb(48, 47, 47);
+}
+
+.shop{
+    height:15%;
+    padding-left: 7%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: .5px dotted rgb(48, 47, 47);
+}
+
+.userinfo{
+    height:15%;
+    padding-left: 7%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: .5px dotted rgb(48, 47, 47);
+    border-top: .5px dotted rgb(48, 47, 47);
+}
+
+.logout{
+    height:15%;
+    padding-left: 7%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: .5px dotted rgb(48, 47, 47);
+    border-top: .5px dotted rgb(48, 47, 47);
+}
+
+.pcmap:hover{
+    background-color: tomato;
+}
+
+.reservation:hover{
+    background-color: tomato;
+}
+
+.shop:hover{
+    background-color: tomato;
+}
+
+.userinfo:hover{
+    background-color: tomato;
+}
+
+.logout:hover{
+    background-color: tomato;
+}

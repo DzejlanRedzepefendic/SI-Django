@@ -1,0 +1,42 @@
+.navbarc{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(53, 53, 53);
+    height: 10%;
+}
+
+#logoslika{
+    width: 50%;
+    height: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    opacity: 20%;
+}
+
+#logoslika:hover{
+    opacity: 40%;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    margin-bottom: 1%;
+}
+
+.welcome{
+    padding-top: 1%;
+    width: 90%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 10%;
+}
+
+#logout:hover{
+    color:red;
+}
+
+#admin:hover{
+    color:rgb(27, 86, 194);
+}

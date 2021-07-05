@@ -1,0 +1,29 @@
+{% extends "base1.html" %}
+{% load static %}
+{% block head %}
+    <link rel="stylesheet" href="{% static 'css/sidebar.css' %}">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+{% endblock %}
+<body>
+    {% block content %} 
+    {% include "navbar.html" %}
+    <div class="leftsidebar">
+        <div class="pcmap">
+            <a href="#"><i class="fas fa-network-wired"></i> PC map</a>
+        </div>
+        <div class="reservation">
+            <a href="#"><i class="fas fa-wallet"></i> Cashdesk</a>
+        </div>
+        <div class="shop">
+            <a href="#"><i class="fas fa-desktop"></i> Reservation</a>
+        </div>
+        <div class="userinfo">
+            <a href="#"><i class="fas fa-user"></i> User info</a>
+        </div>
+        <div class="logout">
+            <a href="/logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+        </div>
+    </div>
+    {% endblock %}
+</body>
+</html>
